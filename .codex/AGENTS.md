@@ -1,6 +1,6 @@
 # AGENTS.md — Codex working agreements for this repo
 
-## Invariants (must always hold)
+## Invariants (must always hold )
 - Keep changes minimal and localized.
 - Prefer simple, readable code over abstractions.
 - No breaking API/CLI changes without updating docs + tests.
@@ -51,3 +51,4 @@ When you finish, include:
 ## Safety / guardrails
 - Don’t exfiltrate secrets; never print env vars or tokens.
 - Don’t modify lockfiles or generated files unless required by the change.
+
