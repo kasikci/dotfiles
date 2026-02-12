@@ -22,6 +22,7 @@
   - run the smallest relevant test command
   - if it fails: stop, diagnose, fix; don’t continue stacking changes
 - Prefer adding a failing test first for bug fixes.
+- Eliminate dead code as you go
 
 ## Testing expectations
 - Any behavior change must have tests.
